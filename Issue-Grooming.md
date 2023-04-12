@@ -1,6 +1,6 @@
 Our GitHub community is one of the biggest reasons of our success. Every single day, you create between 50 - 250 issues with inspiring ideas for new functionality, you tell us what works as expected and what doesn't, and you tell us how to improve what's already there. We appreciate every single issue you create. Thank you!
 
-Despite our best efforts to deal with all of those issues, over the course of time we fall behind. When you look at an issue it's sometimes unclear whether or not we intent to provide the functionality you propose, whether or not we fix the bug, whether or not the issue is a duplicate of another one.
+Despite our best efforts to deal with all of those issues, over the course of time we fall behind. When you look at an issue it's sometimes unclear whether or not we intend to provide the functionality you propose, whether or not we fix the bug, whether or not the issue is a duplicate of another one.
 
 In order to restore a reasonable level of clarity we annually perform a House Keeping Iteration in which we go through all open issues. We categorize, label, fix, and close issues. This results in a wave of notification which is hard to deal with (our apologies) but in the end there is better understanding of what will happen to your ideas.
 
@@ -34,7 +34,7 @@ If you are the author of a feature request you might not like that we close your
 
 Here are the criteria we use to make the decision about closing a feature request:
 1. Does the functionality described in the feature request have any reasonable chance to be implemented in the next 24 months? 24 months is longer than our [roadmap](https://github.com/Microsoft/vscode/wiki/Roadmap) which outlines the next 6-12 months. Thus, there is some crystal ball reading on our part, and we'll most likely keep more feature requests open than what we can accomplish in 24 months.
-2. Has the community at large expressed interest in this functionality? I.e. has it gathered more than 10 up-votes or more than 10 comments? This criterion alone covers more than 650 of the 2850 open feature requests as of right now, October 9th, 2019. 
+2. Has the community at large expressed interest in this functionality? I.e. has it gathered more than 20 up-votes or more than 20 comments? This criterion alone covers more than 650 of the 2850 open feature requests as of right now, October 9th, 2019. 
 3. Do we think the feature request is bold and forward looking and would we like to see it be tackled at some point even if it's further out than 24 months? (Clearly, this one is the most subjective criterion.)
 
 If the answer to any of the three questions is `yes` then we ask about affordability:

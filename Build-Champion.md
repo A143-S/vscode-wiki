@@ -1,10 +1,11 @@
-This page describes the Build Champion role. This is a weekly rotating role.
+This page describes the Build Champion role. This is a weekly rotating role within the team.
 
 ## Responsibilities
 
 - Daily: [Triage all failed and partially succeeded builds](#triage-non-green-builds)
 - At least once during the week: [Review and triage error telemetry](#triage-error-telemetry)
 - On the following Monday: Hand over the role to the next person
+- Build champ buddy: The build champ buddy is a role that you take the week following being the build champ. The buddy is responsible for investigating important build failures when the build champ on the other site is offline.
 
 ## Triage non-green builds
 
@@ -12,14 +13,14 @@ This page describes the Build Champion role. This is a weekly rotating role.
 
 We have an internal `#build` channel that a bot posts to with the results of all builds of the `main` branch on ADO. It's important to review all these failures and create issues because ignoring non-green builds ends up causing the build quality to get worse and worse over time, resulting in a loss of trust of tests, multiple retries, waste of engineering resources, etc.
 
-It's expected that the build champion reviews all `failed` and `partiallySucceeded` builds and actions them appropriately at least once per day. The main focus is to triage and route the failure to the right owner and/or create an issue, so that the build continues to be healthy and run smoothly. **It is _not_ your job to fix the problem unless you own the area.**
+It's expected that the build champion reviews all `failed` and `partiallySucceeded` builds and actions them appropriately at least once per day. The main focus is to triage and route the failure to the right owner and/or create an issue, so that the build continues to be healthy and run smoothly. **It is _not_ your job to fix the problem unless you own the feature area. It is expected that the build champion to investigate and fix build pipeline related issues like Terrapin for example** 
 
 Follow this as a rough guide for how to review a build:
 
 1. Open the "Build" link which will go to GH Actions or ADO
 2. Click into the failed step and review the failure
-3. If an issue is already created for this failure, mark the thread with a ✅
-4. If not, here are some common failure types and how to handle them:
+3. If an issue is already created for this failure, mark the thread with a ✅ to indicate it's actioned
+4. If not action the failure and then mark the thread with ✅, here are some common failure types and how to handle them:
 
 **Test failure:**
 If it looks like the test failed because of the linked change, ping the [area owner](#area-owners).
@@ -29,7 +30,12 @@ If it looks like the test flaked, search [GH issues](https://github.com/microsof
 **Compile failure:**
 If this was a recent failure and the "Changes" seems relevant, ping the committer if they have not yet commented.
 
+**Terrapin failures:**
+- It could be caching issue for that specific pipeline instance so try to rerun the failed task and if it does not work, try to run a completely new build.
+- If the failure still occurs, contact the Terrapin team (terrapin@microsoft.com) and let them know that we run `npx https://aka.ms/enablesecurefeed standAlone` as well as detailed info on the errors we're getting. Also reach out to them by creating an IcM ticket against them: https://aka.ms/icm. They have a team there **Terrapin**.
 
+
+👉 It's important to use ✅ on failed builds as that helps save other team members from investigating failures that don't need it which could happen when they're pinged directly.
 
 
 

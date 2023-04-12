@@ -8,8 +8,8 @@
 - [ ] Update links in the [Endgame notebooks](https://github.com/microsoft/vscode/blob/main/.vscode/notebooks/endgame.github-issues) to point to new milestone **endgame champion**
 - [ ] Code freeze at 5pm PT
 - [ ] Ensure we have a green build on all platforms at 5pm PT
+- [ ] [🔖All closed feature-requests](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aclosed+milestone%3A%22April+2022%22+label%3Afeature-request+-label%3Averification-needed+-label%3Aon-testplan+-label%3Averified+-label%3A*duplicate+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor) either have a `verification-needed` or `on-testplan` label
 - [ ] Create test plan items following the template [here](https://github.com/microsoft/vscode/wiki/Writing-Test-Plan-Items) by 6pm PT
-- [ ] Add verification-needed label to [features needed testing and are not tested by TPIs](https://github.com/microsoft/vscode/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Afeature-request+is%3Aclosed+-label%3Aon-testplan+-label%3Averification-needed+).
 - [ ] Update your availability for testing here - https://vscode-tools.azurewebsites.net/team-manifest **team**
   - [ ] Update availability of testers in vacation. Double check N/A testers. **endgame champion**
 
@@ -18,39 +18,40 @@
 - [ ] Test plan items assigned (using https://vscode-tools.azurewebsites.net/test-plan-items)
   - Run the tool multiple times to balance load if test items come in later and assignments are already made
   - [Assigned to you](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+assignee%3A%40me++label%3Atestplan-item+)
-- [ ] [🔖All closed feature-requests](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aclosed+milestone%3A%22April+2022%22+label%3Afeature-request+-label%3Averification-needed+-label%3Aon-testplan+-label%3Averified+-label%3A*duplicate+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub) either have a `verification-needed` or `on-testplan` label
 - [ ] Test build starts at 7am CET
 - [ ] Test plan ready by 8am CET
-- [ ] [🔖Testing](https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Atestplan-item+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal)
-- [ ] [🔖Verification needed](https://github.com/issues?q=is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+-label%3Aiteration-plan+-label%3Aendgame-plan+-label%3Atestplan-item+label%3Averification-needed+-label%3Averified+is%3Aclosed+label%3Afeature-request)
+- [ ] [🔖Testing](https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Atestplan-item+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor)
+- [ ] [🔖Verification needed](https://github.com/issues?q=is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor+-label%3Aiteration-plan+-label%3Aendgame-plan+-label%3Atestplan-item+label%3Averification-needed+-label%3Averified+is%3Aclosed+-label%3Aon-testplan)
 
 ##### Wednesday
-- [ ] [🔖Testing](https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Atestplan-item+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal)
+- [ ] [🔖Testing](https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Atestplan-item+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor)
 - [ ] Remind team members to assign issues that they intend to fix to the current milestone
 - [ ] Fixing (self-assigned, milestone assigned)
-- [ ] [🔖Verification needed](https://github.com/issues?q=is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+-label%3Aiteration-plan+-label%3Aendgame-plan+-label%3Atestplan-item+label%3Averification-needed+-label%3Averified+is%3Aclosed+label%3Afeature-request)
+- [ ] [🔖Verification needed](https://github.com/issues?q=is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor+-label%3Aiteration-plan+-label%3Aendgame-plan+-label%3Atestplan-item+label%3Averification-needed+-label%3Averified+is%3Aclosed+-label%3Aon-testplan)
 
 ##### Thursday
 - [ ] Fixing (self-assigned, milestone assigned, no need for PR or review)
   - Increased scrutiny sets in due to testing being completed. Fixes pose a much higher risk
   - Move issues to the next month that can be deferred
-- [ ] [🔖Verification needed](https://github.com/issues?q=is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+-label%3Aiteration-plan+-label%3Aendgame-plan+-label%3Atestplan-item+label%3Averification-needed+-label%3Averified+is%3Aclosed+label%3Afeature-request)
-- [ ] [🔖Verification](https://github.com/issues?q=is:issue+milestone:%22April+2022%22+repo:microsoft/vscode+repo:microsoft/vscode-internalbacklog+repo:microsoft/vscode-dev+repo:microsoft/vscode-remote-repositories-github+repo:microsoft/vscode-unpkg+repo:microsoft/vscode-remote-release+repo:microsoft/vscode-js-debug+repo:microsoft/vscode-pull-request-github+repo:microsoft/vscode-livepreview+repo:microsoft/vscode-python+repo:microsoft/vscode-jupyter+repo:microsoft/vscode-jupyter-internal+repo:microsoft/vscode-settings-sync-server+repo:microsoft/vscode-emmet-helper+repo:microsoft/vscode-remotehub+-label:iteration-plan+-label:endgame-plan+-label:testplan-item+label:bug+-label:duplicate+-label:*duplicate+-label:invalid+-label:as-designed+-label:error-telemetry+is:closed)
+- [ ] [🔖Verification needed](https://github.com/issues?q=is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor+-label%3Aiteration-plan+-label%3Aendgame-plan+-label%3Atestplan-item+label%3Averification-needed+-label%3Averified+is%3Aclosed+-label%3Aon-testplan)
+- [ ] [🔖Verification](https://github.com/issues?q=is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor+-label%3Aiteration-plan+-label%3Aendgame-plan+-label%3Atestplan-item+label%3Abug+-label%3Aduplicate+-label%3A*duplicate+-label%3Ainvalid+-label%3Aas-designed+-label%3Aerror-telemetry+is%3Aclosed+-label%3Averified+-label%3Atestplan-item+-label%3Aon-testplan)
 
 ##### Friday
 - [ ] Build a `stable` build to ensure stable build is green **endgame champion**
 - [ ] Pause scheduled `insider` builds **endgame champion**
 - Satellite modules/npm packages ready, version updated, smoke tested
   - [ ] yo generator **@aeschli**
-  - [ ] node debug **@weinand**
   - [ ] js-debug **@connor4312**
-  - [ ] node debugadapter node **@weinand**
-  - [ ] debug adapter protocol **@weinand**
+  - [ ] Debug Adapter Protocol **@connor4312**
+  - [ ] vscode-debugadapter-node **@roblourens**
+  - [ ] Mock Debug **@roblourens**
   - [ ] custom data for html/css **@aeschli**
-- [ ] Only candidate issues are open and assigned to [🔖milestone](https://github.com/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+)
-- [ ] All issues [🔖verified](https://github.com/issues?q=is:issue+milestone:%22April+2022%22+repo:microsoft/vscode+repo:microsoft/vscode-internalbacklog+repo:microsoft/vscode-dev+repo:microsoft/vscode-remote-repositories-github+repo:microsoft/vscode-unpkg+repo:microsoft/vscode-remote-release+repo:microsoft/vscode-js-debug+repo:microsoft/vscode-pull-request-github+repo:microsoft/vscode-livepreview+repo:microsoft/vscode-python+repo:microsoft/vscode-jupyter+repo:microsoft/vscode-jupyter-internal+repo:microsoft/vscode-settings-sync-server+repo:microsoft/vscode-emmet-helper+repo:microsoft/vscode-remotehub+-label:iteration-plan+-label:endgame-plan+-label:testplan-item+label:bug+-label:duplicate+-label:*duplicate+-label:invalid+-label:as-designed+-label:error-telemetry+is:closed)
+- [ ] Only candidate issues are open and assigned to [🔖milestone](https://github.com/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor)
+- [ ] All issues [🔖verified](https://github.com/issues?q=is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor+-label%3Aiteration-plan+-label%3Aendgame-plan+-label%3Atestplan-item+label%3Abug+-label%3Aduplicate+-label%3A*duplicate+-label%3Ainvalid+-label%3Aas-designed+-label%3Aerror-telemetry+is%3Aclosed+-label%3Averified+-label%3Aon-testplan)
+- [ ] All open PRs on the milestone [🔖merged or deferred](https://github.com/issues?q=is%3Apr+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor+is%3Aopen)
 - [ ] Branch code to `release/<x.y>` after all expected fixes are in (latest 5PM PST) **endgame champion**
 - [ ] Branch distro to `release/<x.y>` after all expected fixes are in (latest 5PM PST) **endgame champion**
+- [ ] Localization: Run [Update VS Code Branch](https://monacotools.visualstudio.com/Monaco/_build?definitionId=369) build with `release/*` as the VS Code Branch parameter (it's the default so you shouldn't have to change anything) **endgame champion**
 - [ ] Announce `main` is open for business **endgame champion**
 - [ ] Fixing (PR + review required once branched - major bugs only - to be discussed in stand-up meeting, labeled as `candidate`)
 - [ ] All release notes updated
@@ -58,6 +59,7 @@
   - [ ] @aeschli
   - [ ] @alexdima
   - [ ] @alexr00
+  - [ ] @andreamah
   - [ ] @bpasero
   - [ ] @chrmarti
   - [ ] @connor4312
@@ -66,7 +68,6 @@
   - [ ] @egamma
   - [ ] @hediet
   - [ ] @isidorn
-  - [ ] @JacksonKearl
   - [ ] @joaomoreno
   - [ ] @joyceerhl
   - [ ] @jrieken
@@ -90,15 +91,14 @@
 - [ ] Add notable fixes to the release notes **all**
 - When done fixing/verifying and there are changes since last build at the end of day PT
   - [ ] Build and manually release Insider from release/<x.y> **endgame champion**
-- [ ] Localization: Run [Update VS Code Branch](https://github.com/microsoft/vscode-loc-drop/actions/workflows/update-vscode-branch.yml) in the vscode-loc-drop repo with `release/*` as the VS Code Branch parameter (it's the default so you shouldn't have to change anything) **endgame champion**
 
 ##### Friday/Monday
 - [ ] Polish release notes **redmond**
 - [ ] Fixing (only critical bugs - no string changes)
 
 ##### Monday - Wednesday
-- [ ] [🔖milestone issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+)
-- [ ] [🔖candidate issues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Acandidate+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub)
+- [ ] [🔖milestone issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22April+2022%22+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor)
+- [ ] [🔖candidate issues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Acandidate+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-dev+repo%3Amicrosoft%2Fvscode-remote-repositories-github+repo%3Amicrosoft%2Fvscode-unpkg+repo%3Amicrosoft%2Fvscode-remote-release+repo%3Amicrosoft%2Fvscode-js-debug+repo%3Amicrosoft%2Fvscode-pull-request-github+repo%3Amicrosoft%2Fvscode-livepreview+repo%3Amicrosoft%2Fvscode-python+repo%3Amicrosoft%2Fvscode-jupyter+repo%3Amicrosoft%2Fvscode-jupyter-internal+repo%3Amicrosoft%2Fvscode-settings-sync-server+repo%3Amicrosoft%2Fvscode-emmet-helper+repo%3Amicrosoft%2Fvscode-remotehub+repo%3Amicrosoft%2Fvscode-dev-chrome-launcher+repo%3Adevcontainers%2Fcli+repo%3Adevcontainers%2Fci+repo%3Amicrosoft%2Fvscode-hexeditor)
 - [ ] Polish release notes **redmond**
 - [ ] Cherry-pick hand-picked and reviewed changes to `release/<x.y>` **endgame champion**
 - [ ] Build `Insider` from `release/<x.y>` **endgame champion**
@@ -108,6 +108,7 @@
   - [ ] @aeschli
   - [ ] @alexdima
   - [ ] @alexr00
+  - [ ] @andreamah
   - [ ] @bpasero
   - [ ] @chrmarti
   - [ ] @connor4312
@@ -116,7 +117,6 @@
   - [ ] @egamma
   - [ ] @hediet
   - [ ] @isidorn
-  - [ ] @JacksonKearl
   - [ ] @joaomoreno
   - [ ] @joyceerhl
   - [ ] @jrieken
@@ -155,10 +155,8 @@
     - [ ] signed user installer ARM64
     - [ ] zip ARM64
   - [ ] macOS
-    - [ ] Universal **owner**
-    - [ ] Intel **owner**
-    - [ ] Intel server **owner**
-    - [ ] Apple Silicon **owner**
+    - [ ] Intel + Universal **owner**
+    - [ ] Apple Silicon + Universal **owner**
   - [ ] Linux x64
     - [ ] deb **owner**
     - [ ] rpm **owner**
@@ -171,6 +169,7 @@
     - [ ] ARM64
 - [ ] Publish website **@gregvanl**
 - [ ] Publish to stable **endgame champion**
+- [ ] Trigger the [vscode.dev Deploy pipeline](https://dev.azure.com/monacotools/Monaco/_build?definitionId=276) for the `prod` deployment target. Request approval from another team member at the necessary step. **endgame champion**
 - [ ] Create an official release **endgame champion**
   - [ ] Create a tag (make sure you pull the release branch first): `git tag <x.y.z>`
   - [ ] Push the tag: `git push origin <x.y.z>`
@@ -180,3 +179,6 @@
 - [ ] Bump up the version in `package.json` on `main` - **endgame champion**
 - [ ] [Publish @types/vscode](https://github.com/microsoft/vscode/wiki/Publish-vscode-types) **endgame champion**
 - [ ] Close the milestone on [GitHub](https://github.com/microsoft/vscode/milestones) **endgame champion**
+- [ ] [Create next milestone](https://github.com/microsoft/vscode-internalbacklog/milestones/new) and ensure that it has a due date. The created milestone and its due date will be automatically synced across our repos **endgame champion**
+- [ ] If no Patch Tuesday release is planned, [let the Updates team know of that fact](https://github.com/microsoft/vscode-internalbacklog/wiki/Patch-Tuesday-E-Mail-Template) ([CSEClientPatching@microsoft.com](mailto:CSEClientPatching@microsoft.com)) **endgame champion**
+- [ ] If a [recovery build](https://github.com/microsoft/vscode/wiki/Running-the-Endgame#recovery-build) is needed, proceed to https://github.com/microsoft/vscode/wiki/Endgame-Recovery-Template or https://github.com/microsoft/vscode-internalbacklog/wiki/Patch-Tuesday-Release-Endgame-Template/ **endgame champion**
